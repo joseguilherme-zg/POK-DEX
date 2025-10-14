@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(241, 6, 162),
+    rgb(164, 36, 215));
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    position: relative;
+    margin-top: 2%;
+    padding: 15px;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon_img{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%,20%);
+    height: 18%;
+
+}
+
+.pokemon_data{
+    position: absolute;
+    font-weight: 600px;
+    color: blueviolet;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px,5vw,24px);
+
+}
+
+.pokemon_name {
+    color: rgb(255, 0, 0);
+    text-transform: capitalize;
+}
