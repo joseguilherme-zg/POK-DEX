@@ -7,8 +7,7 @@
 
 body {
     text-align: center;
-    background: linear-gradient(to bottom, rgb(241, 6, 162),
-    rgb(164, 36, 215));
+    background: linear-gradient(to bottom, rgb(241, 6, 162),rgb(164, 36, 215));
     min-height: 100vh;
 }
 
@@ -56,7 +55,7 @@ main {
 
 .input_search {
     width: 100%;
-    padding: 4%;
+    padding: 2%;
     outline: none;
     border: 2px solid red;
     border-radius: 25px;
@@ -77,7 +76,7 @@ main {
 }
 
 .button{
-    width: 50%;
+    width: 20%;
     padding: 5%;
     border: 2px solid black;
     border-radius: 25px;
