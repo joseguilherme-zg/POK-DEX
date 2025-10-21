@@ -54,7 +54,7 @@ main {
 }
 
 .input_search {
-    width: 60%;
+    width: 30%;
     padding: 2%;
     outline: none;
     border: 2px solid red;
@@ -69,7 +69,7 @@ main {
     position: absolute;
     bottom: 10%;
     left: 50%;
-    width: 65%;
+    width: 30%;
     transform: translate(-57%,0);
     display: flex;
     gap: 20px;
