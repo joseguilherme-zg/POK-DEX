@@ -37,3 +37,17 @@ pokemon_form.addEventListener("submit", (event)=>{
     renderPokemon(pokemon_input.value.toLowerCase());
     input.value = "";
 })
+
+pokemon_prev.addEventListener("click", ()=>{
+    if(searchPokemon > 1){
+        searchPokemon -=1
+        renderPokemon(searchPokemon)
+    }
+})
+
+pokemon_next.addEventListener("click", ()=>{
+    searchPokemon +=1
+    renderPokemon(searchPokemon)
+})
+
+renderPokemon(searchPokemon)
