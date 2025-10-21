@@ -84,3 +84,8 @@ main {
     font-size: clamp(8px,5vw,24px);
     box-shadow: -3px 4px 0 #888;
 }
+
+.button:active{
+    box-shadow: inset -4px 4px 0 #888;
+    font-size: 0.9em;
+}
