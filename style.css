@@ -54,7 +54,7 @@ main {
 }
 
 .input_search {
-    width: 100%;
+    width: 60%;
     padding: 2%;
     outline: none;
     border: 2px solid red;
