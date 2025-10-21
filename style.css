@@ -76,6 +76,7 @@ main {
 }
 
 .button{
+    margin-top: 3%;
     width: 20%;
     padding: 5%;
     border: 2px solid black;
